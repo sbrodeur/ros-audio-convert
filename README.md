@@ -13,6 +13,8 @@ sudo apt-get install libgstreamer1.0-0 libgstreamer1.0-dev libgstreamer-plugins-
 Create the catkin workspace:
 ```
 source /opt/ros/kinetic/setup.bash
+mkdir -p catkin_workspace
+cd catkin_workspace
 mkdir -p src
 cd src
 catkin_init_workspace
